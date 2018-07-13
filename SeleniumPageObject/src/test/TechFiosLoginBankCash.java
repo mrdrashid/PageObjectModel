@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import page.AddBankCash;
 import page.TechFiosLoginPage;
 import util.BrowserFactory;
+;
 
 public class TechFiosLoginBankCash {
 	@Test
