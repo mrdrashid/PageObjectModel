@@ -19,7 +19,7 @@ public void DashboardTest() throws IOException, InterruptedException {
 	WebDriver driver = BrowserFactory.startBrowser("chrome", "https://www.weightwatchers.com/us/");
 
 	WeightWatchersLoginPage LoginPage = PageFactory.initElements(driver,WeightWatchersLoginPage.class);
-	LoginPage.weightwatcherClick();
+	//LoginPage.weightwatcherClick();
 	System.out.println(driver.getTitle());
 	LoginPage.findMettingClick();
 	System.out.println(driver.getTitle());

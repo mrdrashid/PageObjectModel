@@ -27,8 +27,12 @@ public class WeightWatchersLoginPage {
 		this.driver = driver;
 	}
 
-	@FindBy(how = How.XPATH, using = "//img[@class='header_freestyle_logo freestyle-desktop']")
-	WebElement weightwatcher;
+	//@FindBy(how = How.XPATH, using = "//h1[text()='Live it up']")
+	//WebElement weightwatcher;
+	
+	//@FindBy(how = How.XPATH, using = "//img[@class='header_freestyle_logo freestyle-desktop']")
+	//WebElement weightwatcher;
+	
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Find a Meeting')]")
 	WebElement findMeting;
@@ -102,9 +106,9 @@ public class WeightWatchersLoginPage {
 	@FindBy(how = How.XPATH, using = "//div[text()='8:00 AM – 1:00 PM']")
 	WebElement SaturdaySchedule;
 
-	public void weightwatcherClick() {
-		weightwatcher.click();
-	}
+	//public void weightwatcherClick() {
+		//eightwatcher.click();
+	//}
 
 	public void findMettingClick() {
 		findMeting.click();
