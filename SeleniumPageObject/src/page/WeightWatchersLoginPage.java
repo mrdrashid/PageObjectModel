@@ -27,7 +27,7 @@ public class WeightWatchersLoginPage {
 		this.driver = driver;
 	}
 
-	@FindBy(how = How.XPATH, using = "//text()[contains(.,'Hurry, offer ends soon!')]/ancestor::div[1]")
+	@FindBy(how = How.XPATH, using = "//img[@class='header_freestyle_logo freestyle-desktop']")
 	WebElement weightwatcher;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Find a Meeting')]")
